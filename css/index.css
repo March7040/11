@@ -1,0 +1,112 @@
+footer
+{
+  color: #ffffff;
+  background-color: #83c378;
+  min-width: 100%;
+  height: 50px;
+  
+}
+
+.bg-primary {
+  background-color: #cad3b3 !important; 
+}
+
+body 
+{
+  color: #83c378;
+  background-color: #ffffff;
+}
+
+.carousel 
+{
+  margin-bottom: 4rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.carousel-item 
+{
+  height: 32rem;
+}
+
+.carousel-item > img 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.marketing .col-lg-4 
+{
+  margin-bottom: 1.5rem;
+  text-align: center;
+  animation: zoomIn 1.5s ease;
+}
+
+.marketing h2 
+{
+  font-weight: 400;
+  color: #432d31;
+}
+
+.marketing .col-lg-4 p 
+{
+  margin-right: .75rem;
+  margin-left: .75rem;
+  color: #432d31;
+}
+
+.featurette-divider 
+{
+  margin: 5rem 0;
+  border-color: #432d31;
+}
+
+@media (min-width: 40em) 
+{
+  .carousel-caption p 
+  {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading 
+  {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) 
+{
+  .featurette-heading 
+  {
+    margin-top: 7rem;
+  }
+}
+
+@keyframes fadeIn 
+{
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp 
+{
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideIn 
+{
+  from { transform: translateX(-100px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes zoomIn 
+{
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
